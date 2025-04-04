@@ -1,0 +1,12 @@
+* Makemore logs
+
+bigram model
+
+Let's build GPT: https://www.youtube.com/watch?v=kCc8FmEb1nY:
+- Jan 17, 2023
+
+The spelled-out intro: https://youtu.be/PaCmpygFfXo?feature=shared:
+- Sep 7, 2022
+
+  
+
