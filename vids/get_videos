@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Install yt-dlp if not already installed
+command -v yt-dlp >/dev/null 2>&1 || { echo "Installing yt-dlp..."; sudo apt install yt-dlp; }
+
+playlist_url="https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+
+# Download first 7 videos 
+yt-dlp --playlist-items 1-7 "$playlist_url"
+#+end_src
+
